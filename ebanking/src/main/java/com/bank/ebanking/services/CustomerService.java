@@ -1,13 +1,20 @@
 package com.bank.ebanking.services;
 
 
-import com.bank.ebanking.Respository.CustomerRepository;
-import com.bank.ebanking.models.Customer;
-import org.springframework.stereotype.Service;
-
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
+import com.bank.ebanking.Respository.CustomerRepository;
+import com.bank.ebanking.models.Customer;
+
+/**
+ * CustomerService comprises all method for CRUD operation 
+ * 
+ * @author AkashRastogi
+ *
+ */
 @Service
 public class CustomerService {
 

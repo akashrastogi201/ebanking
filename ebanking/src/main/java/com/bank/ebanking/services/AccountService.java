@@ -1,13 +1,20 @@
 package com.bank.ebanking.services;
 
-import com.bank.ebanking.Respository.AccountRepository;
-import com.bank.ebanking.models.Account;
-import org.springframework.stereotype.Service;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.stereotype.Service;
+
+import com.bank.ebanking.Respository.AccountRepository;
+import com.bank.ebanking.models.Account;
+
+/**
+ * AccountService comprises all method for CRUD operation
+ * 
+ * @author AkashRastogi
+ *
+ */
 @Service
 public class AccountService {
 
