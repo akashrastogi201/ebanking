@@ -22,15 +22,15 @@ Consist j-unit test case
 1. Use postman to hit service to test the given requirement
 
 For Customer HTTP requests:
-GET Request for collection uri: http://localhost:8080/customer 
-GET request for instance uri: http://localhost:8080/customer/4
-POST request: http://localhost:8080/customer/add
-DELETE request: http://localhost:8080/customer/delete/5
+GET Request for collection uri: http://localhost:8080/customer ,
+GET request for instance uri: http://localhost:8080/customer/4 ,
+POST request: http://localhost:8080/customer/add ,
+DELETE request: http://localhost:8080/customer/delete/5 .
 
 For Account HTTP request:
-GET request for collection uri: http://localhost:8080/accounts
-POST request: http://localhost:8080/customer/4/account/new
-DELETE request: http://localhost:8080/account/2
+GET request for collection uri: http://localhost:8080/accounts ,
+POST request: http://localhost:8080/customer/4/account/new ,
+DELETE request: http://localhost:8080/account/2 .
 
 For Transfer HTTP request:
 POST: http://localhost:8080/transfer
