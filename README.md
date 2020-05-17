@@ -36,8 +36,7 @@ For Transfer HTTP request:
 POST: http://localhost:8080/transfer
 
 #Development in progress:
-Front-end development
-Authentication
-Security
+Front-end development, Authentication
+
 
 
